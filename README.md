@@ -20,8 +20,7 @@ Refer to [Setup Guide](Documentation/Setup.md) for step-by-step instructions on 
 
 ### Network Configuration
 - pfSense Firewall
-- VLAN setup for segregation
-- Modem-router-switch setup
+- VLAN setup for segmentation
 
 Explore detailed configurations in [Configuration Details](Documentation/Configuration.md) and [Networking Setup](Documentation/Networking.md).
 
