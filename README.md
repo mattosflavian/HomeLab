@@ -11,16 +11,23 @@ This home lab is built to simulate a diverse network environment incorporating W
 Router => pfSense Firewall => Physical Host running MacOS => 4 VMs running on Oracle Virtual Box.
 
 ### Virtual Machines
-- Windows 10
+- WINDOWS 10 ENTERPRISE
+  
   *Just grab the Windows 10 Enterprise version for a free trial and use the ISO to create your virtual machine.
-- Windows Server 2019
+  
+- WINDOWS SERVER 2019
+  
   *Same here. Download an evaluation version of Windows Server.
-- Kali Linux
-  * I used Kali as my Linux flavor because it has a ton of cybersecurity-related tools already installed. Feel free to choose your favorite flavor
-- Metasploitable
+  
+- KALI LINUX
+  
+* I used Kali as my Linux flavor because it has a ton of cybersecurity-related tools already installed. Feel free to choose your favorite flavor
+    
+- METASPLOITABLE
+  
  * It's an essential tool for discovering hidden vulnerabilities using a variety of tools and utilities. Metasploit allows you to enter the mind of a hacker and use the same methods for probing and infiltrating networks and servers.
 
- ### Configuring Active Directory Windows Server 2019
+ ### Configuring ACTIVE DIRECTORY -  Windows Server 2019
 
   <img width="1804" alt="AD1" src="https://github.com/mattosflavian/HomeLab/assets/22013491/136aa654-056a-45f4-8d2f-f865fdff45a2">
 
