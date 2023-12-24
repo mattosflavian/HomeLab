@@ -21,18 +21,33 @@ Router => pfSense Firewall => Physical Host running MacOS => 4 VMs running on Or
  * It's an essential tool for discovering hidden vulnerabilities using a variety of tools and utilities. Metasploit allows you to enter the mind of a hacker and use the same methods for probing and infiltrating networks and servers.
 
  ### Configuring Active Directory Windows Server 2019
-<img width="907" alt="5 - Add New Forest" src="https://github.com/mattosflavian/HomeLab/assets/22013491/a2ccafff-931c-4ba5-b87d-29cb46f990c8">
-This is the server manager. Usually, it pops up when you finish installing Windows Server 2019.
-<img width="918" alt="4-Promote Server" src="https://github.com/mattosflavian/HomeLab/assets/22013491/d1888b3f-142e-41c0-bdab-e6864d831d0e">
-Here I am creating a new server. Click Manage> Add Roles and Features> Choose the ones that are selected in the picture to create a Domain Server and a DNS server.
-<img width="911" alt="3- Install" src="https://github.com/mattosflavian/HomeLab/assets/22013491/e8b35462-d657-452b-9720-dc25bd9c1113">
-Very straight forward, just click next :)
-<img width="1804" alt="AD1" src="https://github.com/mattosflavian/HomeLab/assets/22013491/daf8d4ec-900c-4c05-85ec-524d227d7e83">
-Do not close this page. Click on the link "Promote this server to  a domain controller."
-<img width="906" alt="2-Select Server Roles" src="https://github.com/mattosflavian/HomeLab/assets/22013491/6c07c17a-a4f0-481d-88b4-231369392857">
-Choose a domain name, set your password and at the end restart the system!
+
+  <img width="1804" alt="AD1" src="https://github.com/mattosflavian/HomeLab/assets/22013491/136aa654-056a-45f4-8d2f-f865fdff45a2">
+
+   This is the server manager. Usually, it pops up when you finish installing Windows Server 2019.
+
+<img width="906" alt="2-Select Server Roles" src="https://github.com/mattosflavian/HomeLab/assets/22013491/64741eaa-6631-4a96-a7b4-b35acea47e5a">
+
+   Here I am creating a new server. Click Manage> Add Roles and Features> Choose the ones that are selected in the picture to create a Domain Server and a DNS server.
+
+<img width="911" alt="3- Install" src="https://github.com/mattosflavian/HomeLab/assets/22013491/c4a53074-41fe-49ce-bef3-1e8521920624">
+
+  
+   Very straightforward, just click next :)
+
+<img width="918" alt="4-Promote Server" src="https://github.com/mattosflavian/HomeLab/assets/22013491/c221456d-d739-4578-87d8-a40a5ae08f54">
+
+  
+   Do not close this page. Click on the link "Promote this server to  a domain controller."
+
+<img width="907" alt="5 - Add New Forest" src="https://github.com/mattosflavian/HomeLab/assets/22013491/8df23188-9e8a-40b0-82f1-423f7f8f1eab">
+
+  
+   Choose a domain name, set your password and at the end restart the system!
+
 <img width="911" alt="Screen Shot 2023-12-23 at 8 29 01 PM" src="https://github.com/mattosflavian/HomeLab/assets/22013491/00b21e2b-2ed1-4ccb-aa02-21074832e50a">
-And..... tah dahh!! It worked! Now we can add users, set rules, etc.
+  
+   And..... tah dahh!! It worked! The SOC/ is my domain and after that is my account as an administrator. When adding more users to this server, their names will be showing here when they try to log in! Now we can add users, set rules, etc.
 
 ### Network Configuration
 - pfSense Firewall
